@@ -1,0 +1,12 @@
+# This is used for configuring reviewers automatically whenever a PR is submitted 
+# with reference to https://help.github.com/articles/about-codeowners/
+
+# Reviewers for changes to Drafts folder
+/Drafts       @autoprotocol/asc-reviewers
+
+# Reviewers for changes to Accepted folder
+/Accepted       @autoprotocol/asc-reviewers
+
+# Reviewers for changes to Published folder
+/Published       @autoprotocol/curators
+
