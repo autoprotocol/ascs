@@ -1,6 +1,6 @@
 # Autoprotocol Standard Changes
 
-This contains the current list of Autoprotocol Standard Changes (ASCs).
+This contains the current list of Autoprotocol Standard Changes (ASCs). Please refer to the [ASC process](http://autoprotocol.org/community/) for more information.
 
 # Directory Structure
 

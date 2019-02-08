@@ -1,14 +1,14 @@
 #### **Title**
-Title of my amazing new proposal
+A unique descriptive name of between three and twenty words to identify the proposal
 
 #### **Authorship**
-example@myemail.com
+Example Name example.name@myemail.com
 
 #### **Motivation**
-Why we need this proposal
+A brief prose description of the problem being solved and why a change to the standard deserves consideration.
 
 #### **Proposal**
-What is being proposed
+A complete description of the change being proposed in sufficient depth and detail for the community to evaluate the change in question.
 
 #### **Compatibility**
-Compatibility of this with existing ASCs
+A detailed discussion of any possible backwards incompatible implications, being careful to identify any prior underspecifications that might lead to backwards incompatibility not explicity defined in the standard.
