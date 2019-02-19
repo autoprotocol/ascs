@@ -12,3 +12,4 @@ This contains the current list of Autoprotocol Standard Changes (ASCs). Please r
 
 4. Redacted - Published ASCs could be redacted under rare circumstances. If so, they will be moved to this folder.
 
+5. Specification - Contains the up-to-date specification for instructions. Should be updated when a new ASC is published.
