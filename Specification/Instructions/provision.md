@@ -5,14 +5,16 @@ The `provision` instruction encodes adding some amount of an external resource t
 {
   "op": "provision",
   "resource_id": String,
-  "to": [{
-    "well": Aliquot,
-    "volume": Volume,
-    "dispense_velocity": Option<VolumeFlow>,
-    "mix_after": Option<{
-      "volume" Volume,
-      "repetitions": Int,
-      "velocity": Option<VolumeFlow>
-    }>
-  }]
+  "to": [
+    {
+      "well": Aliquot,
+      "volume": Volume,
+      "dispense_velocity": Option<VolumeFlow>,
+      "mix_after": Option<{
+        "volume" Volume,
+        "repetitions": Int,
+        "velocity": Option<VolumeFlow>
+      }>
+    }
+  ]
 }

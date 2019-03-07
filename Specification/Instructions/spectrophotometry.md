@@ -18,7 +18,7 @@ There are 4 valid `mode`s (`absorbance`, `fluorescence`, `luminescence`, and `sh
     "path": Option<shake_path>
   }>,
   "groups": [
-    {
+    Option<{
       "mode": "absorbance",
       "mode_params": {
         "wells": [Aliquot],
@@ -48,8 +48,8 @@ There are 4 valid `mode`s (`absorbance`, `fluorescence`, `luminescence`, and `sh
           }>,
         }>
       }
-    },
-    {
+    }>,
+    Option<{
       "mode": "fluorescence",
       "mode_params": {
         "excitation": [{
@@ -90,8 +90,8 @@ There are 4 valid `mode`s (`absorbance`, `fluorescence`, `luminescence`, and `sh
           }>,
         }>
       }
-    },
-    {
+    }>,
+    Option<{
       "mode": "luminescence",
       "mode_params": {
         "wells": [Aliquot],
@@ -121,8 +121,8 @@ There are 4 valid `mode`s (`absorbance`, `fluorescence`, `luminescence`, and `sh
             )
           }>,
       }
-    },
-    {
+    }>,
+    Option<{
       "mode": "shake",
       "mode_params": {
         "duration": Option<Time>,
@@ -130,6 +130,6 @@ There are 4 valid `mode`s (`absorbance`, `fluorescence`, `luminescence`, and `sh
         "amplitude": Option<Length>,
         "path": Option<shake_path>
       }
-    }
+    }>
   ]
 }
