@@ -15,8 +15,8 @@ This proposal proposes a new instruction, and one to supersede the redacted `ima
 {
   "op": "image_container",
   "objects": Container,
-  "view_point": ['above', 'side', 'below'],
-  "mode": 'visible_light'
+  "view_point": Enum("above", "side", "below"),
+  "mode": "visible_light"
 }
 ```
 
