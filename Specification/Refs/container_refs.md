@@ -12,6 +12,9 @@ The `discard` field indicates whether the ref should be discarded or not.
 The `store` field indicates how a ref should be stored.
 These two fields are mutually exclusive.
 
+**Covers**
+The `cover` field indicates the type of cover a container is initially covered with. If no cover is specified the container is assumed to be uncovered.
+
 #### **Specification**
 {
   "refs": {
@@ -28,7 +31,8 @@ These two fields are mutually exclusive.
           "warm_37"
         )>
       }>,
-      "discard": Option<Boolean>
+      "discard": Option<Boolean>,
+      "cover": Option<String>
     }
   }
 }
