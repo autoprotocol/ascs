@@ -4,6 +4,7 @@ This could be executed once, or at a defined interval, across some total duratio
 There are 4 valid `mode`s (`absorbance`, `fluorescence`, `luminescence`, and `shake`) that each accept a different set of `mode_params`
 
 #### **Specification**
+```
 {
   "op": "spectrophotometry",
   "dataref": String,
@@ -133,3 +134,4 @@ There are 4 valid `mode`s (`absorbance`, `fluorescence`, `luminescence`, and `sh
     }>
   ]
 }
+```
