@@ -5,8 +5,12 @@ The `provision` instruction encodes adding some amount of an external resource t
 {
   "op": "provision",
   "resource_id": String,
+  "measurement_mode": Option<Enum(
+    "mass",
+    "volume"
+  )>
   "to": [
-    {
+    Option<{
       "well": Aliquot,
       "volume": Volume,
       "dispense_velocity": Option<VolumeFlow>,
@@ -15,6 +19,10 @@ The `provision` instruction encodes adding some amount of an external resource t
         "repetitions": Int,
         "velocity": Option<VolumeFlow>
       }>
-    }
+    }>,
+    Option<{
+      "well": Aliquot,
+      "mass": Mass
+    }>
   ]
 }

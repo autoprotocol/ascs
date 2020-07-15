@@ -31,7 +31,8 @@ Transports within the same locations use the same consumables (i.e. tips in the 
           "mode_params": Option<{
             "liquid_class": Option<Enum(
               "air",
-              "default"
+              "default",
+              "viscous"
             )>,
             "tip_position": Option<{
               "position_x": Option<{
@@ -84,12 +85,14 @@ Transports within the same locations use the same consumables (i.e. tips in the 
           }>
         }
       ]>,
-      "temperature": Option<Temperature>
+      "temperature": Option<Temperature>,
+      "density": Option<Density>
     }
   ],
   "mode": Option<Enum(
     "air_displacement",
-    "dispense"
+    "dispense",
+    "positive_displacement"
   )>
   "mode_params": Option<{
     "tip_type": Option<String>
