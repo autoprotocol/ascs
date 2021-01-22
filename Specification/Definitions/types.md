@@ -14,6 +14,7 @@ Instruction and ref specification use the following common types.
 | **Aliquot**                 | `"growth_plate/A1"` | an Autoprotocol container and a well index delimited with a `/` represented as a String
 | **Container**               | `"growth_plate"`    | an Autoprotocol container referenced in the refs section of the protocol represented as a String
 | **Quantity**  e.g. `Volume` | `"5:microliters"`   | a magnitude and a unit delimited with a `:` represented as a String
+| **Compound**                | `"SMILES:c1ccccc1"`   | a chemical compound definition, with a `notation:value` format. Valid notations include `SMILES`, `InChI`, `InChIKey`.
 
 #### Type Wrappers
 | Syntax             | Example Specification | Definition
